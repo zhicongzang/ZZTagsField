@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC232F871D82050C00B81583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232F861D82050C00B81583 /* AppDelegate.swift */; };
+		DC232F891D82050C00B81583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232F881D82050C00B81583 /* ViewController.swift */; };
+		DC232F8C1D82050C00B81583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC232F8A1D82050C00B81583 /* Main.storyboard */; };
+		DC232F8E1D82050C00B81583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC232F8D1D82050C00B81583 /* Assets.xcassets */; };
+		DC232F911D82050C00B81583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC232F8F1D82050C00B81583 /* LaunchScreen.storyboard */; };
+		DC232F9C1D82050C00B81583 /* TestZZTagsFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232F9B1D82050C00B81583 /* TestZZTagsFieldTests.swift */; };
+		DC232FA71D82050C00B81583 /* TestZZTagsFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232FA61D82050C00B81583 /* TestZZTagsFieldUITests.swift */; };
+		DC232FB71D82051E00B81583 /* ZZTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232FB41D82051E00B81583 /* ZZTag.swift */; };
+		DC232FB81D82051E00B81583 /* ZZTagsField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232FB51D82051E00B81583 /* ZZTagsField.swift */; };
+		DC232FB91D82051E00B81583 /* ZZTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC232FB61D82051E00B81583 /* ZZTagView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC232F981D82050C00B81583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC232F7B1D82050C00B81583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC232F821D82050C00B81583;
+			remoteInfo = TestZZTagsField;
+		};
+		DC232FA31D82050C00B81583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC232F7B1D82050C00B81583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC232F821D82050C00B81583;
+			remoteInfo = TestZZTagsField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC232F831D82050C00B81583 /* TestZZTagsField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestZZTagsField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC232F861D82050C00B81583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC232F881D82050C00B81583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC232F8B1D82050C00B81583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC232F8D1D82050C00B81583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC232F901D82050C00B81583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC232F921D82050C00B81583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC232F971D82050C00B81583 /* TestZZTagsFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZZTagsFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC232F9B1D82050C00B81583 /* TestZZTagsFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZZTagsFieldTests.swift; sourceTree = "<group>"; };
+		DC232F9D1D82050C00B81583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC232FA21D82050C00B81583 /* TestZZTagsFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestZZTagsFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC232FA61D82050C00B81583 /* TestZZTagsFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestZZTagsFieldUITests.swift; sourceTree = "<group>"; };
+		DC232FA81D82050C00B81583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC232FB41D82051E00B81583 /* ZZTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTag.swift; sourceTree = "<group>"; };
+		DC232FB51D82051E00B81583 /* ZZTagsField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTagsField.swift; sourceTree = "<group>"; };
+		DC232FB61D82051E00B81583 /* ZZTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTagView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC232F801D82050C00B81583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232F941D82050C00B81583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232F9F1D82050C00B81583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC232F7A1D82050C00B81583 = {
+			isa = PBXGroup;
+			children = (
+				DC232F851D82050C00B81583 /* TestZZTagsField */,
+				DC232F9A1D82050C00B81583 /* TestZZTagsFieldTests */,
+				DC232FA51D82050C00B81583 /* TestZZTagsFieldUITests */,
+				DC232F841D82050C00B81583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC232F841D82050C00B81583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC232F831D82050C00B81583 /* TestZZTagsField.app */,
+				DC232F971D82050C00B81583 /* TestZZTagsFieldTests.xctest */,
+				DC232FA21D82050C00B81583 /* TestZZTagsFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC232F851D82050C00B81583 /* TestZZTagsField */ = {
+			isa = PBXGroup;
+			children = (
+				DC232F861D82050C00B81583 /* AppDelegate.swift */,
+				DC232F881D82050C00B81583 /* ViewController.swift */,
+				DC232FB41D82051E00B81583 /* ZZTag.swift */,
+				DC232FB51D82051E00B81583 /* ZZTagsField.swift */,
+				DC232FB61D82051E00B81583 /* ZZTagView.swift */,
+				DC232F8A1D82050C00B81583 /* Main.storyboard */,
+				DC232F8D1D82050C00B81583 /* Assets.xcassets */,
+				DC232F8F1D82050C00B81583 /* LaunchScreen.storyboard */,
+				DC232F921D82050C00B81583 /* Info.plist */,
+			);
+			path = TestZZTagsField;
+			sourceTree = "<group>";
+		};
+		DC232F9A1D82050C00B81583 /* TestZZTagsFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC232F9B1D82050C00B81583 /* TestZZTagsFieldTests.swift */,
+				DC232F9D1D82050C00B81583 /* Info.plist */,
+			);
+			path = TestZZTagsFieldTests;
+			sourceTree = "<group>";
+		};
+		DC232FA51D82050C00B81583 /* TestZZTagsFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC232FA61D82050C00B81583 /* TestZZTagsFieldUITests.swift */,
+				DC232FA81D82050C00B81583 /* Info.plist */,
+			);
+			path = TestZZTagsFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC232F821D82050C00B81583 /* TestZZTagsField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC232FAB1D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsField" */;
+			buildPhases = (
+				DC232F7F1D82050C00B81583 /* Sources */,
+				DC232F801D82050C00B81583 /* Frameworks */,
+				DC232F811D82050C00B81583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestZZTagsField;
+			productName = TestZZTagsField;
+			productReference = DC232F831D82050C00B81583 /* TestZZTagsField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC232F961D82050C00B81583 /* TestZZTagsFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC232FAE1D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsFieldTests" */;
+			buildPhases = (
+				DC232F931D82050C00B81583 /* Sources */,
+				DC232F941D82050C00B81583 /* Frameworks */,
+				DC232F951D82050C00B81583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC232F991D82050C00B81583 /* PBXTargetDependency */,
+			);
+			name = TestZZTagsFieldTests;
+			productName = TestZZTagsFieldTests;
+			productReference = DC232F971D82050C00B81583 /* TestZZTagsFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC232FA11D82050C00B81583 /* TestZZTagsFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC232FB11D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsFieldUITests" */;
+			buildPhases = (
+				DC232F9E1D82050C00B81583 /* Sources */,
+				DC232F9F1D82050C00B81583 /* Frameworks */,
+				DC232FA01D82050C00B81583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC232FA41D82050C00B81583 /* PBXTargetDependency */,
+			);
+			name = TestZZTagsFieldUITests;
+			productName = TestZZTagsFieldUITests;
+			productReference = DC232FA21D82050C00B81583 /* TestZZTagsFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC232F7B1D82050C00B81583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zhicong Zang";
+				TargetAttributes = {
+					DC232F821D82050C00B81583 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3YN8TBBFZ4;
+					};
+					DC232F961D82050C00B81583 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3YN8TBBFZ4;
+						TestTargetID = DC232F821D82050C00B81583;
+					};
+					DC232FA11D82050C00B81583 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3YN8TBBFZ4;
+						TestTargetID = DC232F821D82050C00B81583;
+					};
+				};
+			};
+			buildConfigurationList = DC232F7E1D82050C00B81583 /* Build configuration list for PBXProject "TestZZTagsField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC232F7A1D82050C00B81583;
+			productRefGroup = DC232F841D82050C00B81583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC232F821D82050C00B81583 /* TestZZTagsField */,
+				DC232F961D82050C00B81583 /* TestZZTagsFieldTests */,
+				DC232FA11D82050C00B81583 /* TestZZTagsFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC232F811D82050C00B81583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC232F911D82050C00B81583 /* LaunchScreen.storyboard in Resources */,
+				DC232F8E1D82050C00B81583 /* Assets.xcassets in Resources */,
+				DC232F8C1D82050C00B81583 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232F951D82050C00B81583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232FA01D82050C00B81583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC232F7F1D82050C00B81583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC232FB71D82051E00B81583 /* ZZTag.swift in Sources */,
+				DC232F891D82050C00B81583 /* ViewController.swift in Sources */,
+				DC232FB91D82051E00B81583 /* ZZTagView.swift in Sources */,
+				DC232F871D82050C00B81583 /* AppDelegate.swift in Sources */,
+				DC232FB81D82051E00B81583 /* ZZTagsField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232F931D82050C00B81583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC232F9C1D82050C00B81583 /* TestZZTagsFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC232F9E1D82050C00B81583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC232FA71D82050C00B81583 /* TestZZTagsFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC232F991D82050C00B81583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC232F821D82050C00B81583 /* TestZZTagsField */;
+			targetProxy = DC232F981D82050C00B81583 /* PBXContainerItemProxy */;
+		};
+		DC232FA41D82050C00B81583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC232F821D82050C00B81583 /* TestZZTagsField */;
+			targetProxy = DC232FA31D82050C00B81583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC232F8A1D82050C00B81583 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC232F8B1D82050C00B81583 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC232F8F1D82050C00B81583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC232F901D82050C00B81583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC232FA91D82050C00B81583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC232FAA1D82050C00B81583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC232FAC1D82050C00B81583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestZZTagsField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC232FAD1D82050C00B81583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestZZTagsField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC232FAF1D82050C00B81583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestZZTagsFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZZTagsField.app/TestZZTagsField";
+			};
+			name = Debug;
+		};
+		DC232FB01D82050C00B81583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestZZTagsFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestZZTagsField.app/TestZZTagsField";
+			};
+			name = Release;
+		};
+		DC232FB21D82050C00B81583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestZZTagsFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestZZTagsField;
+			};
+			name = Debug;
+		};
+		DC232FB31D82050C00B81583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestZZTagsFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jesse.TestZZTagsFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestZZTagsField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC232F7E1D82050C00B81583 /* Build configuration list for PBXProject "TestZZTagsField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC232FA91D82050C00B81583 /* Debug */,
+				DC232FAA1D82050C00B81583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC232FAB1D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC232FAC1D82050C00B81583 /* Debug */,
+				DC232FAD1D82050C00B81583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC232FAE1D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC232FAF1D82050C00B81583 /* Debug */,
+				DC232FB01D82050C00B81583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC232FB11D82050C00B81583 /* Build configuration list for PBXNativeTarget "TestZZTagsFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC232FB21D82050C00B81583 /* Debug */,
+				DC232FB31D82050C00B81583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC232F7B1D82050C00B81583 /* Project object */;
+}
